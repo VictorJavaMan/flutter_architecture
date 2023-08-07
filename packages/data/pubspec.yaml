@@ -10,10 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get_it: ^7.6.0
+  injectable: ^1.5.3
+  model:
+    path: ../model
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  injectable_generator: ^1.5.4
+  build_runner: ^2.3.2
   flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
